@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AdOpsPros</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* Add some basic styles to the body */
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      /* Add some basic styles to the buttons */
+      button {
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+      /* Style the "Businesses" button */
+      #businesses-button {
+        background-color: #3498db;
+      }
+      /* Style the "Contractors" button */
+      #contractors-button {
+        background-color: #2ecc71;
+      }
+      /* Style the h1 element */
+      h1 {
+        font-size: 48px;
+        color: #3498db;
+        text-align: center;
+      }
+      /* Style the p element */
+      p {
+        font-size: 24px;
+        color: #555;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to AdOpsPros</h1>
+    <p>Please select your user type:</p>
+    <button id="businesses-button" onclick="location.href='form.html';">Businesses</button>
+    <button id="contractors-button">Contractors</button>
+  </body>
+</html>
